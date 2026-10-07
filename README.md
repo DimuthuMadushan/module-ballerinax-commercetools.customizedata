@@ -1,4 +1,4 @@
-# Ballerina Commercetools connector
+# Ballerina Commercetools Customize Data connector
 
 [![Build](https://github.com/ballerina-platform/module-ballerinax-commercetools.customizedata/actions/workflows/ci.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-commercetools.customizedata/actions/workflows/ci.yml)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/ballerina-platform/module-ballerinax-commercetools.customizedata.svg)](https://github.com/ballerina-platform/module-ballerinax-commercetools.customizedata/commits/main)

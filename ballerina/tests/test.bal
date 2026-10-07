@@ -30,6 +30,14 @@ isolated Client? commercetoolsClient = ();
 
 @test:BeforeSuite
 function initClient() returns error? {
+    if isLiveServer {
+        if serviceUrl == "" {
+            return error("COMMERCETOOLS_SERVICE_URL must be set when IS_LIVE_SERVER is true");
+        }
+        if tokenUrl == "" {
+            return error("COMMERCETOOLS_TOKEN_URL must be set when IS_LIVE_SERVER is true");
+        }
+    }
     Client c = check new ({
         auth: {
             tokenUrl,
